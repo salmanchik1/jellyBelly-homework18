@@ -19,7 +19,7 @@ const RecipePage = () => {
             }
         };
         getData();
-    }, []);
+    }, [params.id]);
 
     return (
         <div className={style.container}>
