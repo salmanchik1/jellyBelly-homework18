@@ -30,7 +30,6 @@ const HistoryCards: FC = () => {
     useEffect(() => {
         getData();
     }, []);
-    console.log(data);
 
     return (
         <>
