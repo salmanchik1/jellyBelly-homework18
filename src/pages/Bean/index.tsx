@@ -56,7 +56,7 @@ const BeanPage = () => {
                             <td>{beanData.glutenFree ? "Yes" : "No"}</td>
                         </tr>
                     </table>
-                    <Link to="/beans">Back to Beans</Link>
+                    <Link to="./beans">Back to Beans</Link>
                 </div>
             )}
         </>

@@ -58,7 +58,7 @@ const RecipePage = () => {
             <p className={style.description}>{recipeData?.directions}</p>
             <p className={style.description}>Tips: {recipeData?.tips}</p>
 
-            <Link to={`/recipes`}>Back to Recipes</Link>
+            <Link to={`./recipes`}>Back to Recipes</Link>
         </div>
     );
 };

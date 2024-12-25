@@ -15,15 +15,15 @@ import About from "./pages/About";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "jellyBelly-homework18",
         element: <Layout />,
         loader: Loader,
         children: [
             { index: true, element: <Home /> },
-            { path: "bean/:id", element: <BeanPage /> },
+            { path: "beans/bean/:id", element: <BeanPage /> },
             { path: "beans", element: <Beans /> },
             { path: "facts", element: <Facts /> },
-            { path: "recipe/:id", element: <RecipePage />},
+            { path: "recipes/recipe/:id", element: <RecipePage />},
             { path: "recipes", element: <Recipes /> },
             { path: "combinations", element: <Combinations /> },
             { path: "history", element: <History /> },

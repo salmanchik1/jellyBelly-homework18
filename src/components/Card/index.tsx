@@ -9,7 +9,7 @@ interface Props {
 
 const Card: FC<Props> = ({ data }) => {
     return (
-        <Link to={`/bean/${data.beanId}`} className={style.card}>
+        <Link to={`./bean/${data.beanId}`} className={style.card}>
             <div className={style.overlay}>
                 <img src={data.imageUrl} alt="" />
                 <h2>{data.flavorName}</h2>
