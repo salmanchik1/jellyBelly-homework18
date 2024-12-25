@@ -9,8 +9,5 @@ export default defineConfig({
       lodash: 'lodash',
     }
   },
-  build: {
-    outDir: 'jellyBelly-homework18/',
-  },
   base: '/jellyBelly-homework18'
 })
