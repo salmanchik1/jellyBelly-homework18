@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #8b8b8b;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("./fonts/Lobster.ttf");
+}
+
+.container {
+    padding: 0 20px;
+    transition: all 500ms;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+#root {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+li::before {
+    content: "\2B26    ";
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #3c2525;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+    border-radius: 8px;
+    border: 2px solid transparent;
+    border-color: #213547;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #8b8b8b;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+input:hover {
+    border-color: #646cff;
+}
+
+select {
+    border-radius: 8px;
+    border: 2px solid transparent;
+    border-color: #213547;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #8b8b8b;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+select:hover {
+    border-color: #646cff;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}

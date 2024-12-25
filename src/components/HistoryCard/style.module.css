@@ -1,0 +1,38 @@
+.container {
+    max-width: 300px;
+    height: fit-content;
+    text-align: center;
+}
+
+.outerContainer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 30px 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.outerContainer:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.outerContainer::after {
+    content: " \1F806";
+}
+
+/* Make the first card look different */
+.outerContainer:first-child {
+    box-shadow: 0 0 10px gray;
+    background-color: pink;
+}
+
+@media screen and (max-width: 768px) {
+    .outerContainer {
+        flex-direction: column;
+    }
+
+    .outerContainer::after {
+        content: "\1F807";
+    }
+}

@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px;
+}
+
+.container p {
+    text-align: justify;
+    margin: 20px 0;
+    text-indent: 3em;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul {
+    margin: 20px 0;
+    text-align: justify;
+    text-indent: 3em;
+}
+
+li {
+    margin: 10px 0;
+}

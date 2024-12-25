@@ -1,0 +1,82 @@
+.container {
+    max-width: 600px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a {
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 840px) {
+    .burger {
+        display: block;
+        z-index: 1001;
+    }
+
+    .burger div {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 4px 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .burger.open div {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .burger.open div:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .burger.open div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.open div:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .container {
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background-color: #838383;
+        z-index: 1000;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 0 10px gray;
+        padding: 20px;
+        align-items: flex-start;
+        margin: 0 auto;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .container.open {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* slide down animation */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: red;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: red;
+  text-shadow: 3px 3px 10px yellow;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.logo img:hover {
+  animation: wiggle 0.3s ease-in-out;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.logo span {
+    font-family: "Lobster";
+    font-size: 20px;
+}

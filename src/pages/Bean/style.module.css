@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container a::after {
+    content: " \1F806";
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+img {
+    margin: 20px 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    text-align: center;
+    width: 100%;
+}

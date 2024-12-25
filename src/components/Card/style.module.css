@@ -1,0 +1,17 @@
+.card {
+    max-width: 300px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.overlay {
+    height: fit-content;
+}
+
+.overlay img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    text-align: center;
+    width: 100%;
+}
