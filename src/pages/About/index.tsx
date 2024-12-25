@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 
-const About = () => {
+const AboutPage = () => {
     return (
         <div className={style.container}>
             <h1>About this project...</h1>
@@ -53,17 +53,17 @@ const About = () => {
             </p>
             <ul>
                 <li>
-                    <b>Flavor Development:</b> Our team of expert flavorists works
-                    tirelessly to capture the essence of each flavor.
+                    <b>Flavor Development:</b> Our team of expert flavorists
+                    works tirelessly to capture the essence of each flavor.
                 </li>
                 <li>
-                    <b>Candy Coating:</b> The beans are coated with multiple layers of
-                    sugar to achieve their signature glossy finish.
+                    <b>Candy Coating:</b> The beans are coated with multiple
+                    layers of sugar to achieve their signature glossy finish.
                 </li>
                 <li>
-                    <b>Quality Testing:</b> Every batch is thoroughly tested to ensure
-                    it meets our exacting standards for taste, texture, and
-                    appearance.
+                    <b>Quality Testing:</b> Every batch is thoroughly tested to
+                    ensure it meets our exacting standards for taste, texture,
+                    and appearance.
                 </li>
             </ul>
             <h2>Commitment to Quality </h2>
@@ -83,20 +83,20 @@ const About = () => {
             </p>
             <ul>
                 <li>
-                    <b>Candy Corn:</b> A classic treat that harkens back to our early
-                    days.
+                    <b>Candy Corn:</b> A classic treat that harkens back to our
+                    early days.
                 </li>
                 <li>
-                    <b>Chocolate Dips:</b> Jelly beans enrobed in rich chocolate for a
-                    decadent twist.
+                    <b>Chocolate Dips:</b> Jelly beans enrobed in rich chocolate
+                    for a decadent twist.
                 </li>
                 <li>
-                    <b>Sport Beans:</b> Energy-boosting beans designed for athletes and
-                    active individuals.
+                    <b>Sport Beans:</b> Energy-boosting beans designed for
+                    athletes and active individuals.
                 </li>
                 <li>
-                    <b>Gift Sets and Merchandise:</b> Perfect for every occasion, from
-                    birthdays to holidays.
+                    <b>Gift Sets and Merchandise:</b> Perfect for every
+                    occasion, from birthdays to holidays.
                 </li>
             </ul>
             <h2>Our Global Reach</h2>
@@ -118,9 +118,10 @@ const About = () => {
             <h2>Fun Facts About Jelly Belly </h2>
             <ul>
                 <li>
-                    <b>Presidential Approval:</b> Jelly Belly became a household name
-                    during Ronald Reagan’s presidency. He was a fan of our jelly
-                    beans and often kept a jar on his desk in the Oval Office.
+                    <b>Presidential Approval:</b> Jelly Belly became a household
+                    name during Ronald Reagan’s presidency. He was a fan of our
+                    jelly beans and often kept a jar on his desk in the Oval
+                    Office.
                 </li>
                 <li>
                     <b>Space Exploration:</b> Jelly Belly jelly beans have even
@@ -132,9 +133,9 @@ const About = () => {
                     true-to-life buttered popcorn flavor in a jelly bean.
                 </li>
                 <li>
-                    <b>Customized Beans:</b> Did you know you can order Jelly Belly
-                    beans with custom colors, flavors, and even printed logos?
-                    Perfect for weddings, corporate events, and more.
+                    <b>Customized Beans:</b> Did you know you can order Jelly
+                    Belly beans with custom colors, flavors, and even printed
+                    logos? Perfect for weddings, corporate events, and more.
                 </li>
             </ul>
             <h2>Visit Us </h2>
@@ -180,4 +181,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutPage;

@@ -6,7 +6,7 @@ type FormType = {
     category: string;
 };
 
-const Review = () => {
+const ReviewPage = () => {
     const {
         register,
         handleSubmit,
@@ -30,7 +30,9 @@ const Review = () => {
                     })}
                 />
             </label>
-            {errors.user_name && <p className={"error"}>{errors.user_name.message}</p>}
+            {errors.user_name && (
+                <p className={"error"}>{errors.user_name.message}</p>
+            )}
             <label>
                 Email{" "}
                 <input
@@ -40,7 +42,9 @@ const Review = () => {
                     })}
                 />
             </label>
-            {errors.user_email && <p className={"error"}>{errors.user_email.message}</p>}
+            {errors.user_email && (
+                <p className={"error"}>{errors.user_email.message}</p>
+            )}
             <select {...register("category")}>
                 <option value="a">Select A</option>
                 <option value="b">Select B</option>
@@ -50,4 +54,4 @@ const Review = () => {
         </form>
     );
 };
-export default Review;
+export default ReviewPage;

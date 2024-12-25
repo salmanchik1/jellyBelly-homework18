@@ -1,7 +1,7 @@
 import HistoryCards from "../../components/HistoryCards";
 import style from "./style.module.css";
 
-const History = () => {
+const HistoryPage = () => {
     return (
         <div className={style.container}>
             <h1>Explore History...</h1>
@@ -10,4 +10,4 @@ const History = () => {
     );
 };
 
-export default History;
+export default HistoryPage;

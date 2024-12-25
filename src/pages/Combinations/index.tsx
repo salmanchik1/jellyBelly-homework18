@@ -3,7 +3,7 @@ import CombinationsCards from "../../components/CombinationsCards";
 import style from "./style.module.css";
 import Search from "../../components/Search";
 
-const Combinations = () => {
+const CombinationsPage = () => {
     const [filterValue, setFilterValue] = useState("");
     return (
         <div className={style.container}>
@@ -14,4 +14,4 @@ const Combinations = () => {
     );
 };
 
-export default Combinations;
+export default CombinationsPage;

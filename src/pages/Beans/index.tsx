@@ -2,7 +2,7 @@ import { useState } from "react";
 import Cards from "../../components/Cards";
 import Search from "../../components/Search";
 
-const Beans = () => {
+const BeansPage = () => {
     const [filterValue, setFilterValue] = useState("");
     return (
         <>
@@ -13,4 +13,4 @@ const Beans = () => {
     );
 };
 
-export default Beans;
+export default BeansPage;

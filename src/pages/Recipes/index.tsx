@@ -3,7 +3,7 @@ import RecipesCards from "../../components/RecipesCards";
 import style from "./style.module.css";
 import Search from "../../components/Search";
 
-const Recipes = () => {
+const RecipesPage = () => {
     const [filterValue, setFilterValue] = useState("");
     return (
         <div className={style.container}>
@@ -14,4 +14,4 @@ const Recipes = () => {
     );
 };
 
-export default Recipes;
+export default RecipesPage;

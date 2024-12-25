@@ -2,7 +2,7 @@ import { useState } from "react";
 import FactsCards from "../../components/FactsCards";
 import Search from "../../components/Search";
 
-const Facts = () => {
+const FactsPage = () => {
     const [filterValue, setFilterValue] = useState("");
     return (
         <>
@@ -13,4 +13,4 @@ const Facts = () => {
     );
 };
 
-export default Facts;
+export default FactsPage;
