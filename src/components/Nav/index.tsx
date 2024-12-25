@@ -19,13 +19,13 @@ const Nav = () => {
             <nav
                 className={`${style.container} ${isMenuOpen ? style.open : ""}`}
             >
-                <Link to="./beans">Beans</Link>
-                <Link to="./facts">Facts</Link>
-                <Link to="./recipes">Recipes</Link>
-                <Link to="./combinations">Combinations</Link>
-                <Link to="./history">History</Link>
-                <Link to="./review">Review</Link>
-                <Link to="./about">About</Link>
+                <Link to="/jellyBelly-homework18/beans">Beans</Link>
+                <Link to="/jellyBelly-homework18/facts">Facts</Link>
+                <Link to="/jellyBelly-homework18/recipes">Recipes</Link>
+                <Link to="/jellyBelly-homework18/combinations">Combinations</Link>
+                <Link to="/jellyBelly-homework18/history">History</Link>
+                <Link to="/jellyBelly-homework18/review">Review</Link>
+                <Link to="/jellyBelly-homework18/about">About</Link>
                 <SwitchTheme />
                 <Modal isModal={isModal} onClick={() => setIsModal(false)} />
             </nav>

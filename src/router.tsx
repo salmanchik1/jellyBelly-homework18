@@ -20,10 +20,10 @@ const router = createBrowserRouter([
         loader: Loader,
         children: [
             { index: true, element: <Home /> },
-            { path: "beans/bean/:id", element: <BeanPage /> },
+            { path: "bean/:id", element: <BeanPage /> },
             { path: "beans", element: <Beans /> },
             { path: "facts", element: <Facts /> },
-            { path: "recipes/recipe/:id", element: <RecipePage />},
+            { path: "recipe/:id", element: <RecipePage />},
             { path: "recipes", element: <Recipes /> },
             { path: "combinations", element: <Combinations /> },
             { path: "history", element: <History /> },

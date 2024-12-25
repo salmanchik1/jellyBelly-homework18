@@ -6,12 +6,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@root': '/jellyBelly-homework18',
       lodash: 'lodash',
     }
   },
   build: {
-    outDir: 'dist/',
+    outDir: 'jellyBelly-homework18/',
   },
   base: '/jellyBelly-homework18'
 })

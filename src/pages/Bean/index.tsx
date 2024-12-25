@@ -31,32 +31,34 @@ const BeanPage = () => {
                     <h3>Ingredients</h3>
                     <p>{beanData.ingredients.join(", ")}.</p>
                     <table>
-                        <tr>
-                            <td>Color group: </td>
-                            <td>Hexademical_color: </td>
-                            <td>Bean ID: </td>
-                            <td>Kosher: </td>
-                        </tr>
-                        <tr>
-                            <td>"{beanData.colorGroup}"</td>
-                            <td>{beanData.backgroundColor}</td>
-                            <td>{beanData.beanId}</td>
-                            <td>{beanData.kosher ? "Yes" : "No"}</td>
-                        </tr>
-                        <tr></tr>
-                        <tr></tr>
-                        <tr>
-                            <td>Seasonal: </td>
-                            <td>Sugar free: </td>
-                            <td>Gluten free: </td>
-                        </tr>
-                        <tr>
-                            <td>{beanData.seasonal ? "Yes" : "No"}</td>
-                            <td>{beanData.sugarFree ? "Yes" : "No"}</td>
-                            <td>{beanData.glutenFree ? "Yes" : "No"}</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Color group: </td>
+                                <td>Hexademical_color: </td>
+                                <td>Bean ID: </td>
+                                <td>Kosher: </td>
+                            </tr>
+                            <tr>
+                                <td>"{beanData.colorGroup}"</td>
+                                <td>{beanData.backgroundColor}</td>
+                                <td>{beanData.beanId}</td>
+                                <td>{beanData.kosher ? "Yes" : "No"}</td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr>
+                                <td>Seasonal: </td>
+                                <td>Sugar free: </td>
+                                <td>Gluten free: </td>
+                            </tr>
+                            <tr>
+                                <td>{beanData.seasonal ? "Yes" : "No"}</td>
+                                <td>{beanData.sugarFree ? "Yes" : "No"}</td>
+                                <td>{beanData.glutenFree ? "Yes" : "No"}</td>
+                            </tr>
+                        </tbody>
                     </table>
-                    <Link to="./beans">Back to Beans</Link>
+                    <Link to="/jellyBelly-homework18/beans">Back to Beans</Link>
                 </div>
             )}
         </>

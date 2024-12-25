@@ -14,7 +14,7 @@ const RecipeCard: FC<Props> = ({ data }) => {
             <p>{data.description}</p>
             {data.makingAmount && <p>Make: {data.makingAmount}</p>}
             {data.totalTime && <p>Total time: {data.totalTime}</p>}
-            <Link to={`./recipe/${data.recipeId}`}>check out this recipe</Link>
+            <Link to={`/jellyBelly-homework18/recipe/${data.recipeId}`}>check out this recipe</Link>
         </div>
     );
 };
